@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap";
+:root {
+  --africa-color: blue;
+  --americas-color: darkgreen;
+  --asia-color: red;
+  --europe-color: orange;
+  --oceania-color: purple;
+  --else-color: darkgray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto Light, sans-serif;
+  display: flex;
+}
+
+.outer-container {
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.front-image {
+  max-width: 100%;
+  flex-direction: row;
+  padding: 0 100px;
+  display: flex;
+}
+
+.country-flag {
+  height: 20px;
+  width: 35px;
+  display: inline-block;
+}
+
+.region-africa {
+  color: var(--africa-color);
+}
+
+.region-americas {
+  color: var(--americas-color);
+}
+
+.region-asia {
+  color: var(--asia-color);
+}
+
+.region-europe {
+  color: var(--europe-color);
+}
+
+.region-oceania {
+  color: var(--oceania-color);
+}
+
+.region-other {
+  color: var(--else-color);
+}
+
+.link-to-other-page {
+  background-color: #d3d3d3;
+  border: 2px dotted red;
+  padding: 10px;
+  font-size: 20px;
+}
+
+header {
+  width: 100vw;
+  border: 2px solid #000;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+#countries-container {
+  width: 100%;
+  flex: 0 0 3000px;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+}
+
+#countryInfo {
+  max-width: 2500px;
+  column-count: 3;
+  background: #d3d3d3;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 30px;
+  list-style-type: none;
+}
+
+#countryInfo li {
+  padding: 10px;
+  overflow: auto;
+}
+
+#countryInfo span {
+  font-size: 20px;
+}
+
+.country-population {
+  margin: 0 0 12px;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

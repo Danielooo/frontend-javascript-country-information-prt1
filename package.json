@@ -1,18 +1,23 @@
 {
   "name": "frontend-javascript-country-information-world-regions",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Inleiding",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/search.html",
+    "build": "parcel build src/search.html",
+    "start-main": "parcel src/index.html",
+    "build-main": "parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
+    "buffer": "^5.7.1",
     "parcel": "^2.0.0",
     "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
   }
 }
