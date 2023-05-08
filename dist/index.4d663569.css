@@ -19,7 +19,6 @@ body {
 
 .outer-container {
   width: 100vw;
-  border: 2px dotted red;
   flex-direction: column;
   align-items: center;
   display: flex;
@@ -62,9 +61,25 @@ body {
   color: var(--else-color);
 }
 
+.link-to-other-page {
+  background-color: #d3d3d3;
+  border: 2px dotted red;
+  padding: 10px;
+  font-size: 20px;
+}
+
+header {
+  width: 100vw;
+  border: 2px solid #000;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
 #countries-container {
   width: 100%;
   flex: 0 0 3000px;
+  justify-content: center;
   padding: 10px;
   display: flex;
 }

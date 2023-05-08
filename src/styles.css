@@ -1,22 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
-
-
-
-/*////////////////////////
-    Table of Contents
-    1. Global Styles
-    2. Typography
-    3. Layout
-        3.1 Reusables
-        3.2 Other
-    4. Areas
-        4.1 Header
-        4.2 Introduction
-        4.3 Work
-
-    5. Media Queries
-////////////////////////*/
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
 
@@ -31,6 +13,8 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -47,7 +31,6 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  border: 2px dotted red;
 }
 
 .front-image {
@@ -89,16 +72,66 @@ body {
   color: var(--else-color);
 }
 
+.link-to-other-page {
+  padding: 10px;
+  background-color: lightgrey;
+  border: 2px dotted red;
+  font-size: 20px;
+}
 
-/* --------------- 3.2 Other --------------------------- */
+/* --------------- 3.2 Search Page --------------------------- */
+
+body {
+
+}
+
+.search-form {
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+}
+
+#error-message p {
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.info-block-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-block-inner {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: lightgrey;
+  border-radius: 7px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.info-block-inner p {
+  margin-top: 10px;
+}
+
+.info-block-inner img {
+  width: 300px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+
 
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
 /* --------------- 4.1 Header ------------------------- */
 
 /* --------------- 4.2 Flag Box ------------------------- */
-
-/*TODO drie columns met land*/
 
 
 #countries-container {
@@ -108,7 +141,7 @@ body {
   flex-basis: 3000px;
   flex-grow: 0;
   flex-shrink: 0;
-  /*justify-content: center;*/
+  justify-content: center;
   padding: 10px;
 }
 
@@ -133,6 +166,10 @@ body {
 
 .country-population {
   margin: 0 0 12px 0;
+}
+
+.placeholder {
+  list-style-type: none;
 }
 
 /* --------------- 4.2 Introduction ------------------- */
