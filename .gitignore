@@ -1,3 +1,12 @@
+# Webstorm
 .idea
-/node_modules
+
+# Parcel
 /.parcel-cache
+dist
+
+# Modules
+/node_modules
+
+# Environment Variables
+env.local

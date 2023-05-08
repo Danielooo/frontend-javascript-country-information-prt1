@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Country Facts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="search-behaviour.js" type="module" defer></script>
+</head>
+<body>
+
+  <div class="outer-container">
+
+    <h1>Let's search some countries</h1>
+    <img src="assets/world_map.png" alt="World map image"/>
+
+
+    <form id="submit-form" method="get" class="search-form">
+      <div class="search-bar">
+        <label for="country-name-field">Country Name: </label>
+        <input type="text" name="country-name" id="country-name-field" required>
+        <button id="button-element" type="submit">Search</button>
+      </div>
+    </form>
+
+    <div class="error-field">
+      <p id="error-message"></p>
+    </div>
+
+    <article id="info-block-outer">
+      <!-- Hier komt innerHtml -->
+    </article>
+
+  </div>
+
+</body>
+</html>
